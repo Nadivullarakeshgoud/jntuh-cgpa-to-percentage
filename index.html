@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JNTUH CGPA To Percentage</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card_header">
+                <span>JNTUH CGPA To Percentage</span>
+                <label for="sem1">Semester 1</label>
+                <input type="text" id="sem1" placeholder="Enter 1-1 sgpa">
+                <label for="sem2">Semester 2</label>
+                <input type="text" id="sem2" placeholder="Enter 1-2 sgpa">
+                <label for="sem3">Semester 3</label>
+                <input type="text" id="sem3" placeholder="Enter 2-1 sgpa">
+                <label for="sem4">Semester 4</label>
+                <input type="text" id="sem4" placeholder="Enter 2-2 sgpa">
+                <label for="sem5">Semester 5</label>
+                <input type="text"id="sem5" placeholder="Enter 3-1 sgpa">
+                <label for="sem6">Semester 6</label>
+                <input type="text" id="sem6" placeholder="Enter 3-2 sgpa">
+                <label for="sem7">Semester 7</label>
+                <input type="text" id="sem7" placeholder="Enter 4-1 sgpa">
+                <label for="sem8">Semester 8</label>
+                <input type="text" id="sem8" placeholder="Enter 4-2 sgpa">
+                
+            </div>
+            <div class="card_content">
+                <p>CGPA: <b id="cgpa"></b></p>
+                <p>Percentage: <b id="per"></b></p>
+                <p>Class Awarded:<b id="award"></b></p>
+            </div>
+            <div class="card_action">
+                <button onclick="getResult()">Calculate</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
